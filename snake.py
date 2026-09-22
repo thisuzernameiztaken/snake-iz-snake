@@ -142,7 +142,7 @@ while True:
         score += 1
         if score > high_score:
             high_score = score
-        delay = delay * 0.9  # Gradually speeds up game overall as you eat
+        delay = delay * 0.75  # Gradually speeds up game overall as you eat
         pen.clear()
         pen.write(f"Score: {score}  High Score: {high_score}", align="center", font=("Courier", 24, "normal"))
 
